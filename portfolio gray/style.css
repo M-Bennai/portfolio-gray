@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: #F5F4F2;
+    font-family: 'Montserrat';
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: #707070;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    list-style: none;
+    font-size: 13px;
+}
+
+/* PAGE INDEX */
+
+.titre {
+    font-family: 'Druk Text';
+    font-style: italic;
+    font-size: 75px;
+    color: white;
+  
+}
+
+.soustitre {
+    font-weight: 350;
+    color: #839795;
+}
+
+.intro {
+    margin-top: 100px;
+}
+
+.description {
+    margin-top: 80px;
+    margin-left: 12%;
+}
+
+.workspace {
+    position: absolute;
+    z-index: -1;
+    top: 10%;
+    right: 14%;
+}
+
+.baspage {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profil {
+    margin-top: 900px;
+    margin-left: 12%;
+    font-family: "Druk Text";
+    color: white;
+    font-size: 40px;
+}
+
+.langages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alllangages {
+    margin-top: 20px;
+}
+
+.competences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.competence {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    width: 400px;
+}
+
+.outils {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.alloutils {
+    margin-top: 20px;
+}
+/* PAGE WORK */
+
+.workleft {
+    margin-left: 10%;
+    margin-top: 80px;
+}
+
+.works {
+    display: flex;
+justify-content: space-around;
+}
+
+.work {
+    color: white;
+    font-size: 75px;
+}
+
+.Ozweego {
+    color: #839795;
+}
+
+.descripOZ {
+    margin-top: 100px;
+}
+
+/* PAGE CONTACT */
